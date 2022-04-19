@@ -1,2 +1,54 @@
-[{"id":"7493e9ee.4b09e8","type":"comment","z":"7815539e.9ef41c", "name":"Node-Red y
-Git","info":"","x":360,"y":100,"wires":[]}]
+[
+    {
+        "id": "afee82d2.2df45",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "622da122.48a58",
+        "type": "inject",
+        "z": "afee82d2.2df45",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "7d5ab2ba.45d76c"
+            ]
+        ]
+    },
+    {
+        "id": "7d5ab2ba.45d76c",
+        "type": "debug",
+        "z": "afee82d2.2df45",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 160,
+        "wires": []
+    }
+]
